@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "baseUrl": "./",
+    "paths": {
+      "#/*": ["./*"],
+      "#app/*": ["./app/*"],
+      "#common/*": ["./common/*"],
+      "#config/*": ["./config/*"],
+      "#middleWare/*": ["./middleWare/*"],
+      "#build/*": ["./build/*"]
+    }
+  },
+  "include": ["app/**/*.js", "settings"],
+  "exclude": ["node_modules", "**/*.spec.ts"]
+}
